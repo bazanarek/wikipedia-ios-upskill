@@ -115,6 +115,7 @@ class SearchResultsViewController: ArticleCollectionViewController {
         cell.setTitleHTML(result.displayTitleHTML, boldedString: resultsInfo?.searchTerm)
         cell.articleSemanticContentAttribute = MWKLanguageLinkController.semanticContentAttribute(forContentLanguageCode: contentLanguageCode)
         cell.titleLabel.accessibilityLanguage = languageCode
+        cell.titleLabel.accessibilityIdentifier = "searchResult"
         cell.descriptionLabel.text = descriptionForSearchResult(result)
         cell.descriptionLabel.accessibilityLanguage = languageCode
         editController.configureSwipeableCell(cell, forItemAt: indexPath, layoutOnly: layoutOnly)
