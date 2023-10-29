@@ -16,7 +16,7 @@ class UpskillTests: BaseTestCase {
         searchPage.typeIn(searchQuery: searchQuery)
         searchPage.tapFirstResult()
         
-        XCTAssertFalse(articlePage.isTextOnPageDispplayed(text: searchQuery), "Article page for search quesry didn't open")
+        XCTAssertTrue(articlePage.isTextOnPageDispplayed(text: searchQuery), "Article page for search quesry didn't open")
     }
     
     func testResultsNotFound_TC2() {
