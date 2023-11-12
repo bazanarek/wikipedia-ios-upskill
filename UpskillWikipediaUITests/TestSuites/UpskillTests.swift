@@ -16,7 +16,7 @@ class UpskillTests: BaseTestCase {
         searchPage.typeIn(searchQuery: searchQuery)
         searchPage.tapFirstResult()
         
-        XCTAssertTrue(articlePage.isTextOnPageDispplayed(text: searchQuery), "Article page for search quesry didn't open")
+        XCTAssertTrue(articlePage.isTextOnPageDisplayed(text: searchQuery), "Article page for search query \(searchQuery) didn't open")
     }
     
     func testResultsNotFound_TC2() {
@@ -38,7 +38,7 @@ class UpskillTests: BaseTestCase {
         articlePage.tapBackButton()
         searchPage.tapClearSearchText()
         
-        XCTAssertTrue(searchPage.getRecentSearches().contains(searchQuery), "Recent search quesry is not displayed in the recent searches list")
+        XCTAssertTrue(searchPage.getRecentSearches().contains(searchQuery), "Recent search query - \(searchQuery) is not displayed in the recent searches list")
     }
     
     func testDisplayPrivacyPolicy_TC4() {
@@ -50,7 +50,7 @@ class UpskillTests: BaseTestCase {
     
     func testDisplayTermsOfUse_TC5() {
         homePage.tapSettings()
-        settingsPage.tapOpenPrivacyPolicy()
+        settingsPage.tapOpenTermsOfUse()
         
         XCTAssertTrue(webViewPage.isTermsOfUsePageDisplayed(), "Terms of use page is not displayed")
     }
