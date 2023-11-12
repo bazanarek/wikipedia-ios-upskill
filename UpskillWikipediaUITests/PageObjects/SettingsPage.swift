@@ -9,12 +9,10 @@ class SettingsPage: BaseAppPage {
     // MARK: - Actions
     
     func tapOpenPrivacyPolicy() {
-        _ = privacyPolicyButton.waitForExistence(timeout: TestTimeouts.generalUiElementTimeout)
-        privacyPolicyButton.tap()
+        privacyPolicyButton.waitAndTap()
     }
     
     func tapOpenTermsOfUse() {
-        _ = termsOfUseButton.waitForExistence(timeout: TestTimeouts.generalUiElementTimeout)
-        termsOfUseButton.tap()
+        termsOfUseButton.waitAndTap()
     }
 }
