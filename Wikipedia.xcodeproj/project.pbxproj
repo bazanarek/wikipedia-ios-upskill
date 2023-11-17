@@ -2433,6 +2433,18 @@
 		B3F21D101EB0EBB4000ED0BB /* PlaceSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F21D0E1EB0EBB4000ED0BB /* PlaceSearchService.swift */; };
 		B3F21D111EB0EBB4000ED0BB /* PlaceSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F21D0E1EB0EBB4000ED0BB /* PlaceSearchService.swift */; };
 		B3F21D121EB0EBB4000ED0BB /* PlaceSearchService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3F21D0E1EB0EBB4000ED0BB /* PlaceSearchService.swift */; };
+		B609DE082ACF00C60090488F /* ArticlePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B609DE072ACF00C60090488F /* ArticlePage.swift */; };
+		B60C59F02AC1FEFF00EEB120 /* BaseTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60C59EF2AC1FEFF00EEB120 /* BaseTestCase.swift */; };
+		B60E925C2B0121530080DFA9 /* OnboardingPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B60E925B2B0121530080DFA9 /* OnboardingPage.swift */; };
+		B66672B62AE9A69B0035C699 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66672B52AE9A69B0035C699 /* SettingsPage.swift */; };
+		B66672B82AE9A7F00035C699 /* WebViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66672B72AE9A7F00035C699 /* WebViewPage.swift */; };
+		B68421652AF81F1800C3EEF9 /* XCUIElementExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68421642AF81F1800C3EEF9 /* XCUIElementExtensions.swift */; };
+		B6BF62432AC2B20F0053940B /* UpskillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF62422AC2B20F0053940B /* UpskillTests.swift */; };
+		B6BF62452AC2B2D40053940B /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF62442AC2B2D40053940B /* HomePage.swift */; };
+		B6BF62472AC2B3070053940B /* BaseAppPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF62462AC2B3070053940B /* BaseAppPage.swift */; };
+		B6BF62492AC2B6D60053940B /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF62482AC2B6D60053940B /* SearchPage.swift */; };
+		B6F0081D2AE10FFF00BFCFF7 /* XCUIElementQueryExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F0081C2AE10FFF00BFCFF7 /* XCUIElementQueryExtensions.swift */; };
+		B6F0081F2AE11AA800BFCFF7 /* TestTimeouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6F0081E2AE11AA800BFCFF7 /* TestTimeouts.swift */; };
 		BA4524181F324C3100439C42 /* FontSizeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4524161F324C3100439C42 /* FontSizeSliderViewController.swift */; };
 		BA4524191F324C3100439C42 /* FontSizeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4524161F324C3100439C42 /* FontSizeSliderViewController.swift */; };
 		BA45241A1F324C3100439C42 /* FontSizeSliderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA4524161F324C3100439C42 /* FontSizeSliderViewController.swift */; };
@@ -3551,6 +3563,13 @@
 			remoteInfo = WMF;
 		};
 		B0606EB320AA6FF0006EC6B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D499142D181D51DE00E6073C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D4991434181D51DE00E6073C;
+			remoteInfo = Wikipedia;
+		};
+		B60C59F12AC1FEFF00EEB120 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D499142D181D51DE00E6073C /* Project object */;
 			proxyType = 1;
@@ -4990,6 +5009,19 @@
 		B39427411E71F79700D3146D /* NSDictionaryBlocksKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryBlocksKitTest.m; sourceTree = "<group>"; };
 		B39427421E71F79700D3146D /* NSSetBlocksKitTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSSetBlocksKitTest.m; sourceTree = "<group>"; };
 		B3F21D0E1EB0EBB4000ED0BB /* PlaceSearchService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceSearchService.swift; sourceTree = "<group>"; };
+		B609DE072ACF00C60090488F /* ArticlePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticlePage.swift; sourceTree = "<group>"; };
+		B60C59EB2AC1FEFE00EEB120 /* UpskillWikipediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpskillWikipediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60C59EF2AC1FEFF00EEB120 /* BaseTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTestCase.swift; sourceTree = "<group>"; };
+		B60E925B2B0121530080DFA9 /* OnboardingPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPage.swift; sourceTree = "<group>"; };
+		B66672B52AE9A69B0035C699 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
+		B66672B72AE9A7F00035C699 /* WebViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPage.swift; sourceTree = "<group>"; };
+		B68421642AF81F1800C3EEF9 /* XCUIElementExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIElementExtensions.swift; sourceTree = "<group>"; };
+		B6BF62422AC2B20F0053940B /* UpskillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpskillTests.swift; sourceTree = "<group>"; };
+		B6BF62442AC2B2D40053940B /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
+		B6BF62462AC2B3070053940B /* BaseAppPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAppPage.swift; sourceTree = "<group>"; };
+		B6BF62482AC2B6D60053940B /* SearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
+		B6F0081C2AE10FFF00BFCFF7 /* XCUIElementQueryExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIElementQueryExtensions.swift; sourceTree = "<group>"; };
+		B6F0081E2AE11AA800BFCFF7 /* TestTimeouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTimeouts.swift; sourceTree = "<group>"; };
 		BA4524161F324C3100439C42 /* FontSizeSliderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontSizeSliderViewController.swift; sourceTree = "<group>"; };
 		BA4524171F324C3100439C42 /* FontSizeSliderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FontSizeSliderViewController.xib; sourceTree = "<group>"; };
 		BA4524221F32500C00439C42 /* TextSizeChangeExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextSizeChangeExampleViewController.swift; sourceTree = "<group>"; };
@@ -5612,6 +5644,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B018501620BC846600A508F1 /* WMF.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60C59E82AC1FEFE00EEB120 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -8071,6 +8110,49 @@
 			name = Activities;
 			sourceTree = "<group>";
 		};
+		B60C59EC2AC1FEFF00EEB120 /* UpskillWikipediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF62412AC2B1AC0053940B /* XCUITestHelpers */,
+				B6BF62402AC2B19D0053940B /* TestSuites */,
+				B6BF623F2AC2B1870053940B /* PageObjects */,
+			);
+			path = UpskillWikipediaUITests;
+			sourceTree = "<group>";
+		};
+		B6BF623F2AC2B1870053940B /* PageObjects */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF62442AC2B2D40053940B /* HomePage.swift */,
+				B6BF62462AC2B3070053940B /* BaseAppPage.swift */,
+				B6BF62482AC2B6D60053940B /* SearchPage.swift */,
+				B609DE072ACF00C60090488F /* ArticlePage.swift */,
+				B66672B52AE9A69B0035C699 /* SettingsPage.swift */,
+				B66672B72AE9A7F00035C699 /* WebViewPage.swift */,
+				B60E925B2B0121530080DFA9 /* OnboardingPage.swift */,
+			);
+			path = PageObjects;
+			sourceTree = "<group>";
+		};
+		B6BF62402AC2B19D0053940B /* TestSuites */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF62422AC2B20F0053940B /* UpskillTests.swift */,
+			);
+			path = TestSuites;
+			sourceTree = "<group>";
+		};
+		B6BF62412AC2B1AC0053940B /* XCUITestHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				B60C59EF2AC1FEFF00EEB120 /* BaseTestCase.swift */,
+				B6F0081C2AE10FFF00BFCFF7 /* XCUIElementQueryExtensions.swift */,
+				B6F0081E2AE11AA800BFCFF7 /* TestTimeouts.swift */,
+				B68421642AF81F1800C3EEF9 /* XCUIElementExtensions.swift */,
+			);
+			path = XCUITestHelpers;
+			sourceTree = "<group>";
+		};
 		BAFCE8401F1D7F8A0077D5E9 /* Appearance */ = {
 			isa = PBXGroup;
 			children = (
@@ -8838,6 +8920,7 @@
 				B0606EAF20AA6FF0006EC6B9 /* WikipediaUITests */,
 				00021DE624D48EFD00476F97 /* Widgets */,
 				676C864526D40AEB00A704C1 /* NotificationServiceExtension */,
+				B60C59EC2AC1FEFF00EEB120 /* UpskillWikipediaUITests */,
 				D4991437181D51DE00E6073C /* Frameworks */,
 				D4991436181D51DE00E6073C /* Products */,
 				67D6C0152405A3E2005709B1 /* Recovered References */,
@@ -8861,6 +8944,7 @@
 				00021DE124D48EFD00476F97 /* WidgetsExtension.appex */,
 				D8B589A521CD05070027083A /* languages */,
 				676C864426D40AEA00A704C1 /* NotificationServiceExtension.appex */,
+				B60C59EB2AC1FEFE00EEB120 /* UpskillWikipediaUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -9808,6 +9892,24 @@
 			productReference = B0606EAE20AA6FF0006EC6B9 /* WikipediaUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		B60C59EA2AC1FEFE00EEB120 /* UpskillWikipediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B60C59FE2AC1FF0000EEB120 /* Build configuration list for PBXNativeTarget "UpskillWikipediaUITests" */;
+			buildPhases = (
+				B60C59E72AC1FEFE00EEB120 /* Sources */,
+				B60C59E82AC1FEFE00EEB120 /* Frameworks */,
+				B60C59E92AC1FEFE00EEB120 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B60C59F22AC1FEFF00EEB120 /* PBXTargetDependency */,
+			);
+			name = UpskillWikipediaUITests;
+			productName = UpskillWikipediaUITests;
+			productReference = B60C59EB2AC1FEFE00EEB120 /* UpskillWikipediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		BC4273511A7C736800068882 /* WikipediaUnitTests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC42735A1A7C736800068882 /* Build configuration list for PBXNativeTarget "WikipediaUnitTests" */;
@@ -10014,7 +10116,7 @@
 					WMFWelcome,
 				);
 				LastSwiftMigration = 0700;
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1500;
 				ORGANIZATIONNAME = "Wikimedia Foundation";
 				TargetAttributes = {
@@ -10043,6 +10145,10 @@
 						DevelopmentTeam = AKK7J2GV64;
 						LastSwiftMigration = 1020;
 						ProvisioningStyle = Automatic;
+						TestTargetID = D4991434181D51DE00E6073C;
+					};
+					B60C59EA2AC1FEFE00EEB120 = {
+						CreatedOnToolsVersion = 14.3.1;
 						TestTargetID = D4991434181D51DE00E6073C;
 					};
 					BC4273511A7C736800068882 = {
@@ -10270,6 +10376,7 @@
 				D8B589A421CD05070027083A /* languages */,
 				00021DE024D48EFD00476F97 /* WidgetsExtension */,
 				676C864326D40AEA00A704C1 /* NotificationServiceExtension */,
+				B60C59EA2AC1FEFE00EEB120 /* UpskillWikipediaUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -10301,6 +10408,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		B0606EAC20AA6FF0006EC6B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60C59E92AC1FEFE00EEB120 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -11003,6 +11117,25 @@
 				B0606EB120AA6FF0006EC6B9 /* SnapshotRecorderTests.swift in Sources */,
 				B0606EC520AA955C006EC6B9 /* SnapshotHelper.swift in Sources */,
 				B0BDA58220B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B60C59E72AC1FEFE00EEB120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B60C59F02AC1FEFF00EEB120 /* BaseTestCase.swift in Sources */,
+				B68421652AF81F1800C3EEF9 /* XCUIElementExtensions.swift in Sources */,
+				B6F0081D2AE10FFF00BFCFF7 /* XCUIElementQueryExtensions.swift in Sources */,
+				B6BF62492AC2B6D60053940B /* SearchPage.swift in Sources */,
+				B609DE082ACF00C60090488F /* ArticlePage.swift in Sources */,
+				B66672B82AE9A7F00035C699 /* WebViewPage.swift in Sources */,
+				B6F0081F2AE11AA800BFCFF7 /* TestTimeouts.swift in Sources */,
+				B6BF62432AC2B20F0053940B /* UpskillTests.swift in Sources */,
+				B6BF62472AC2B3070053940B /* BaseAppPage.swift in Sources */,
+				B6BF62452AC2B2D40053940B /* HomePage.swift in Sources */,
+				B66672B62AE9A69B0035C699 /* SettingsPage.swift in Sources */,
+				B60E925C2B0121530080DFA9 /* OnboardingPage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -13902,6 +14035,11 @@
 			target = D4991434181D51DE00E6073C /* Wikipedia */;
 			targetProxy = B0606EB320AA6FF0006EC6B9 /* PBXContainerItemProxy */;
 		};
+		B60C59F22AC1FEFF00EEB120 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D4991434181D51DE00E6073C /* Wikipedia */;
+			targetProxy = B60C59F12AC1FEFF00EEB120 /* PBXContainerItemProxy */;
+		};
 		BCBDE0AE1AA76F19006BD29A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D4991434181D51DE00E6073C /* Wikipedia */;
@@ -16019,6 +16157,341 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Experimental;
+		};
+		B60C59F32AC1FF0000EEB120 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = P4B3UXCZU4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazanarek.UpskillWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
+			};
+			name = Debug;
+		};
+		B60C59F42AC1FF0000EEB120 /* LocalDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P4B3UXCZU4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazanarek.UpskillWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
+			};
+			name = LocalDebug;
+		};
+		B60C59F52AC1FF0000EEB120 /* UITest */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P4B3UXCZU4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazanarek.UpskillWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
+			};
+			name = UITest;
+		};
+		B60C59F62AC1FF0000EEB120 /* UserTestingDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P4B3UXCZU4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazanarek.UpskillWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
+			};
+			name = UserTestingDebug;
+		};
+		B60C59F72AC1FF0000EEB120 /* StagingDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P4B3UXCZU4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazanarek.UpskillWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
+			};
+			name = StagingDebug;
+		};
+		B60C59F82AC1FF0000EEB120 /* ExperimentalDebug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P4B3UXCZU4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazanarek.UpskillWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
+			};
+			name = ExperimentalDebug;
+		};
+		B60C59F92AC1FF0000EEB120 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P4B3UXCZU4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazanarek.UpskillWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
+			};
+			name = Release;
+		};
+		B60C59FA2AC1FF0000EEB120 /* UserTesting */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P4B3UXCZU4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazanarek.UpskillWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
+			};
+			name = UserTesting;
+		};
+		B60C59FB2AC1FF0000EEB120 /* Staging */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P4B3UXCZU4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazanarek.UpskillWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
+			};
+			name = Staging;
+		};
+		B60C59FC2AC1FF0000EEB120 /* Test */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P4B3UXCZU4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazanarek.UpskillWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
+			};
+			name = Test;
+		};
+		B60C59FD2AC1FF0000EEB120 /* Experimental */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = P4B3UXCZU4;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bazanarek.UpskillWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wikipedia;
 			};
 			name = Experimental;
 		};
@@ -19677,6 +20150,24 @@
 				B0606EBF20AA6FF0006EC6B9 /* Staging */,
 				B0606EC120AA6FF0006EC6B9 /* Test */,
 				B0606EC220AA6FF0006EC6B9 /* Experimental */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B60C59FE2AC1FF0000EEB120 /* Build configuration list for PBXNativeTarget "UpskillWikipediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B60C59F32AC1FF0000EEB120 /* Debug */,
+				B60C59F42AC1FF0000EEB120 /* LocalDebug */,
+				B60C59F52AC1FF0000EEB120 /* UITest */,
+				B60C59F62AC1FF0000EEB120 /* UserTestingDebug */,
+				B60C59F72AC1FF0000EEB120 /* StagingDebug */,
+				B60C59F82AC1FF0000EEB120 /* ExperimentalDebug */,
+				B60C59F92AC1FF0000EEB120 /* Release */,
+				B60C59FA2AC1FF0000EEB120 /* UserTesting */,
+				B60C59FB2AC1FF0000EEB120 /* Staging */,
+				B60C59FC2AC1FF0000EEB120 /* Test */,
+				B60C59FD2AC1FF0000EEB120 /* Experimental */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
