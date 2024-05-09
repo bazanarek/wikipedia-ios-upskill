@@ -8,8 +8,8 @@ class BaseTestCase: XCTestCase {
     override func setUp() {
         super.setUp()
         app = XCUIApplication()
-        app.launchArguments += ["WMFDidShowOnboarding", "@YES"] // > not working
         setupRegionAndLocaleToUK()
+        app.launchArguments += ["-WMFDidShowOnboarding", "true"]
         app.launch()
         onboardingPage.skipOnboarding()
     }

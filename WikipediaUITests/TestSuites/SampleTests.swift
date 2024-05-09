@@ -1,7 +1,7 @@
 import Foundation
 import XCTest
 
-class UpskillTests: BaseTestCase {
+class SampleTests: BaseTestCase {
     
     lazy var homePage = HomePage(application: self.app)
     lazy var searchPage = SearchPage(application: self.app)

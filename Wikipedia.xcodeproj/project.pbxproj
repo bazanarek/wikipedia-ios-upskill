@@ -2439,7 +2439,7 @@
 		B66672B62AE9A69B0035C699 /* SettingsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66672B52AE9A69B0035C699 /* SettingsPage.swift */; };
 		B66672B82AE9A7F00035C699 /* WebViewPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66672B72AE9A7F00035C699 /* WebViewPage.swift */; };
 		B68421652AF81F1800C3EEF9 /* XCUIElementExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68421642AF81F1800C3EEF9 /* XCUIElementExtensions.swift */; };
-		B6BF62432AC2B20F0053940B /* UpskillTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF62422AC2B20F0053940B /* UpskillTests.swift */; };
+		B6BF62432AC2B20F0053940B /* SampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF62422AC2B20F0053940B /* SampleTests.swift */; };
 		B6BF62452AC2B2D40053940B /* HomePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF62442AC2B2D40053940B /* HomePage.swift */; };
 		B6BF62472AC2B3070053940B /* BaseAppPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF62462AC2B3070053940B /* BaseAppPage.swift */; };
 		B6BF62492AC2B6D60053940B /* SearchPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF62482AC2B6D60053940B /* SearchPage.swift */; };
@@ -5016,7 +5016,7 @@
 		B66672B52AE9A69B0035C699 /* SettingsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsPage.swift; sourceTree = "<group>"; };
 		B66672B72AE9A7F00035C699 /* WebViewPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPage.swift; sourceTree = "<group>"; };
 		B68421642AF81F1800C3EEF9 /* XCUIElementExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCUIElementExtensions.swift; sourceTree = "<group>"; };
-		B6BF62422AC2B20F0053940B /* UpskillTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpskillTests.swift; sourceTree = "<group>"; };
+		B6BF62422AC2B20F0053940B /* SampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleTests.swift; sourceTree = "<group>"; };
 		B6BF62442AC2B2D40053940B /* HomePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePage.swift; sourceTree = "<group>"; };
 		B6BF62462AC2B3070053940B /* BaseAppPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseAppPage.swift; sourceTree = "<group>"; };
 		B6BF62482AC2B6D60053940B /* SearchPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPage.swift; sourceTree = "<group>"; };
@@ -7953,7 +7953,7 @@
 			name = Welcome;
 			sourceTree = "<group>";
 		};
-		B0606EAF20AA6FF0006EC6B9 /* WikipediaUITests */ = {
+		B0606EAF20AA6FF0006EC6B9 /* WikipediaSnapshotTests */ = {
 			isa = PBXGroup;
 			children = (
 				B0606EB020AA6FF0006EC6B9 /* SnapshotRecorderTests.swift */,
@@ -7961,7 +7961,7 @@
 				B0BDA58120B09A090098DB65 /* XCUIApplication+SnapshotUtilities.swift */,
 				B0606EB220AA6FF0006EC6B9 /* Info.plist */,
 			);
-			path = WikipediaUITests;
+			path = WikipediaSnapshotTests;
 			sourceTree = "<group>";
 		};
 		B08013D22149F5DA00B52D03 /* Help */ = {
@@ -8110,14 +8110,14 @@
 			name = Activities;
 			sourceTree = "<group>";
 		};
-		B60C59EC2AC1FEFF00EEB120 /* UpskillWikipediaUITests */ = {
+		B60C59EC2AC1FEFF00EEB120 /* WikipediaUITests */ = {
 			isa = PBXGroup;
 			children = (
 				B6BF62412AC2B1AC0053940B /* XCUITestHelpers */,
 				B6BF62402AC2B19D0053940B /* TestSuites */,
 				B6BF623F2AC2B1870053940B /* PageObjects */,
 			);
-			path = UpskillWikipediaUITests;
+			path = WikipediaUITests;
 			sourceTree = "<group>";
 		};
 		B6BF623F2AC2B1870053940B /* PageObjects */ = {
@@ -8137,7 +8137,7 @@
 		B6BF62402AC2B19D0053940B /* TestSuites */ = {
 			isa = PBXGroup;
 			children = (
-				B6BF62422AC2B20F0053940B /* UpskillTests.swift */,
+				B6BF62422AC2B20F0053940B /* SampleTests.swift */,
 			);
 			path = TestSuites;
 			sourceTree = "<group>";
@@ -8917,10 +8917,10 @@
 				D87021611EBA63EF000D02D6 /* Update Localizations */,
 				D8479FAC1F222FE90025FD7A /* Wikipedia Stickers */,
 				83ACAA9F24E6DC8E003B3035 /* Command Line Tools */,
-				B0606EAF20AA6FF0006EC6B9 /* WikipediaUITests */,
+				B0606EAF20AA6FF0006EC6B9 /* WikipediaSnapshotTests */,
 				00021DE624D48EFD00476F97 /* Widgets */,
 				676C864526D40AEB00A704C1 /* NotificationServiceExtension */,
-				B60C59EC2AC1FEFF00EEB120 /* UpskillWikipediaUITests */,
+				B60C59EC2AC1FEFF00EEB120 /* WikipediaUITests */,
 				D4991437181D51DE00E6073C /* Frameworks */,
 				D4991436181D51DE00E6073C /* Products */,
 				67D6C0152405A3E2005709B1 /* Recovered References */,
@@ -11131,7 +11131,7 @@
 				B609DE082ACF00C60090488F /* ArticlePage.swift in Sources */,
 				B66672B82AE9A7F00035C699 /* WebViewPage.swift in Sources */,
 				B6F0081F2AE11AA800BFCFF7 /* TestTimeouts.swift in Sources */,
-				B6BF62432AC2B20F0053940B /* UpskillTests.swift in Sources */,
+				B6BF62432AC2B20F0053940B /* SampleTests.swift in Sources */,
 				B6BF62472AC2B3070053940B /* BaseAppPage.swift in Sources */,
 				B6BF62452AC2B2D40053940B /* HomePage.swift in Sources */,
 				B66672B62AE9A69B0035C699 /* SettingsPage.swift in Sources */,
